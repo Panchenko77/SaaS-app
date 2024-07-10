@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "lib": ["es6", "dom"],
+    "baseUrl": "./src",
+    "checkJs": false,
+    "jsx": "react"
+  }
+}

@@ -1,0 +1,90 @@
+body {
+  background-color: #000;
+  color: #ffd700;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #222;
+  padding: 1rem;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+.navbar a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+.auth-container,
+.dashboard-container,
+.database-container,
+.campaigns-container,
+.crm-container {
+  margin: 2rem;
+  padding: 2rem;
+  /* border: 1px solid #ffd700;
+  border-radius: 5px; */
+  background-color: #333;
+}
+
+.auth-container h2,
+.dashboard-container h1,
+.database-container h1,
+.campaigns-container h1,
+.crm-container h1 {
+  color: #ffd700;
+}
+
+.auth-container form input {
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.auth-container form button {
+  padding: 0.5rem;
+  background-color: #ffd700;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.auth-container button {
+  padding: 0.5rem;
+  background-color: #222;
+  color: #ffd700;
+  border: 1px solid #ffd700;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.crm-container {
+  margin: 2rem;
+  padding: 2rem;
+  border: 1px solid #ffd700;
+  border-radius: 5px;
+  background-color: #333;
+}
+
+.campaigns-container { 
+    border: 2px solid #ffd700;
+    border-radius: 5px;
+}
+
+.css-18bvkh6>option,
+.css-18bvkh6>optgroup {
+  background-color: #000;
+  color: #ffd700;
+}
