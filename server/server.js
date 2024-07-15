@@ -18,7 +18,6 @@ const { recordingService } = require("./services/recording-service");
 const { generateResponse } = require("./services/whatsapp-service");
 const { sendEmail } = require("./utils/email");
 const { Conversation } = require("./models/Conversation");
-
 const apiRouter = require("./routes");
 
 const app = express();
